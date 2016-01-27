@@ -80,6 +80,30 @@ footer{
 					float: left;
 					margin: 0px 12px;
 					display: inline-block;
+					a{
+						display: inline-block;
+						width: 70px;
+						height: 70px;
+						background-color: #414141;
+						transition: all 0.3s ease-in-out;
+						text-align: center;
+						position: relative;
+						i{
+							transition: all 0.3s ease-in-out;
+							color: white;
+							visibility: hidden;
+							left: 40%;
+    						top: 36%;
+							position: absolute;
+						}
+					}
+
+					a:hover{
+						background-color: #eeb013;
+						i{
+							visibility: visible;
+						}
+					}
 				}
 
 				li:first-child, li:nth-child(4){
