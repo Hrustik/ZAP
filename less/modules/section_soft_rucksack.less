@@ -1,0 +1,292 @@
+.section_soft_rucksack{
+	padding-top: 80px;
+	.container{
+		.big_image_ruckstack{
+			a{
+				display: inline-block;
+				img{
+					height: 662px;
+				}
+			}
+		}
+
+		.small_image_ruckstack{
+			padding: 10px 7px;
+			a{
+				display: inline-block;
+				img{
+					height: 198px;
+				}
+			}
+		}
+
+		.first_ruckstack{
+			padding-left: 0px;
+		}
+
+		.small_image_ruckstack:last-child{
+			padding-right: 0px;
+		}
+
+		.soft_rucksack{
+			h1{
+				color: #141414;
+				font-size: 28px;
+				font-weight: 700;
+				margin-bottom: 36px;
+			}
+
+			p{
+				color: #6f6f6f;
+				font-size: 13px;
+				font-weight: 400;
+				line-height: 30px;
+				padding-bottom: 26px;
+				border-bottom: 1px solid #ececec;
+				margin-bottom: 18px;
+			}
+
+			.product_code{
+				margin-bottom: 40px;
+				.fa-square-o{
+					transform: rotate(45deg);
+					color: black;
+					font-size: 10px;
+					border-radius: 0%;
+					margin: 0px 20px;
+				}
+
+				.first_square{
+					margin-left: 2px;
+				}
+
+				.code{
+					font-size: 11px;
+					font-weight: 400;
+					color: #6f6f6f;
+					text-transform: uppercase;
+				}
+
+				.ref{
+					font-size: 11px;
+					font-weight: 400;
+					color: #141414;
+					text-transform: uppercase;
+				}
+
+				.stars{
+					display: inline-block;
+					float: right;
+					.star{
+						color: #ebc52d;
+						font-size: 14px;
+					}
+				}
+			}
+			
+			.ruck_price{
+				display: inline-block;
+				margin-bottom: 38px;
+				.rucksach_price_underline{
+					display: inline-block;
+					color: #6f6f6f;
+					font-family: CrimsonText;
+					font-size: 36px;
+					font-style: italic;
+					text-decoration: line-through;
+					margin-right: 17px;
+				}
+
+				.rucksach_price{
+					color: #141414;
+					font-family: CrimsonText;
+					font-size: 36px;
+					font-style: italic;
+				}
+			}
+
+			.first-dropdown{
+				margin-bottom: 30px;
+			}
+
+			.last_dropdown{
+				margin-bottom: 41px;
+			}
+
+			.dropdown{
+				width: 100%;
+				display: inline-block;
+				.btn{
+					padding-bottom: 13px;
+					border-bottom: 1px solid #ececec;
+					border-radius: 0%;
+					padding-right: 0px;
+					width: 100%;
+					text-align: left;
+				}
+				
+
+				.caret{
+					color: #909090;
+					right: 0px;
+    				position: absolute;
+				}
+
+				.btn{
+					color: #141414;
+					font-family: CrimsonText;
+					font-size: 12px;
+					font-style: italic;
+					text-transform: uppercase;
+				}
+
+				.btn-default{
+					padding-left: 0px;
+					padding-right: 0px;
+					float: left;
+					border-left: 0px;
+					border-right: 0px;
+					border-top: 0px; 
+					background-color: white;
+				}
+
+				.btn-default:active{ 
+						outline: none; 
+						box-shadow: none; 
+						background-color: inherit;
+						color: #eeb013;
+				} 
+
+				.btn:focus{
+				color: #eeb013;
+				outline: 0px;
+				}
+
+				.input_star{
+					display: inline-block;
+					margin-right: 3px;
+					color: #f6b138;
+				}
+			}
+			
+			.spinner_cart{
+				padding: 0px;
+				position: relative;
+				margin-bottom: 49px;
+				.input-group{
+					float: left;
+					margin-right: 20px;
+				}
+
+				.input-group-btn-vertical > .btn {
+					border: 0px;
+					color: #141414;
+					font-size: 18px;
+					font-weight: 400;
+				}	
+				
+				.input-group-btn-vertical > .btn:first-child{
+					position: absolute;
+				    z-index: 2;
+				    left: -16px;
+				    padding: 0px;
+				    top: 11px;
+				}
+				
+				.input-group-btn-vertical > .btn:last-child{
+					position: absolute;
+				    z-index: 2;
+				    left: -129px;
+				    padding: 0px;
+				    top: 12px;
+	    		}
+
+				input{
+					z-index: 0;
+					height: 40px;
+					width: 140px;
+					border-radius: 0%;
+					text-align: center;
+					color: #141414;
+					font-size: 18px;
+					font-weight: 400;
+					border: 2px solid #ececec;
+				}
+
+				.add_to_cart{
+					color: white;
+					font-size: 14px;
+					font-weight: 700;
+					text-transform: uppercase;
+					padding: 19px 28px;
+					background-color: #eeb013;
+					transition: all 0.3s ease-in-out;
+					display: inline-block;
+					top: -12px;
+	    			position: absolute;
+				}
+				
+				.add_to_cart:hover{
+					background-color: darken(#eeb013, 10%)
+				}
+			}
+			
+			.sku_cat_tag{
+				margin-bottom: 52px;
+				.sku{
+					margin-bottom: 20px;
+					.code{
+						font-size: 10px;
+						font-weight: 400;
+						color: #6f6f6f;
+					}
+
+					.ref{
+						font-size: 10px;
+						font-weight: 400;
+						color: #141414;
+					}
+				}
+
+				.sku:last-child{
+					margin-bottom: 0px;
+				}
+			}
+
+			.brands{
+				li{
+					display: inline-block;
+					float: left;
+					margin: 0px 5px;
+					a{
+						text-align: center;
+						i{
+							transition: all 0.3s ease-in-out;
+							padding-top: 12px;
+							width: 42px;
+							height: 42px;
+							border-radius: 100%;
+							background-color: #f9f9f9;
+							color: #272727;
+						}
+					}
+
+					a:hover{
+						i{
+							background-color: #eeb013;
+							color: white;
+						}
+					}
+				}
+
+				li:first-child{
+					margin-left: 0px;
+				}
+
+				li:last-child{
+					margin-right: 0px;
+				}
+			}
+		}
+	}
+}
